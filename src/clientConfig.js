@@ -5,9 +5,9 @@ const localIP = window.location.hostname;
 const config = {
   isProduction,
   socketURI: isProduction
-    ? 'wss://pokerpocket.nitramite.com/api'
+    ? 'wss://llmbet.ru/api'
     : isStaging
-      ? 'wss://pokerpocket-staging.nitramite.com/api'
+      ? 'wss://pokerpocket-staging.nitramite.com/api'  
       : `ws://${localIP}:8000/api`,
 };
 
